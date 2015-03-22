@@ -6,8 +6,8 @@
     <string name="app_version">XPrivacy 版本: %1$s (%2$d)</string>
     <string name="app_description">终级隐私管理器</string>
     <string name="app_copyright">版权所有 \u00A9 2013–2015 M. Bokhorst (M66B)</string>
-    <string name="app_compatibility">以兼容模式运行</string>
-    <string name="app_licensed">已授权, 感谢您的支持!</string>
+    <string name="app_compatibility">正在以兼容模式运行</string>
+    <string name="app_licensed">已授权，感谢您的支持！</string>
     <string name="menu_usage">权限使用记录</string>
     <string name="menu_refresh">刷新应用列表</string>
     <string name="menu_settings">设置</string>
@@ -15,8 +15,8 @@
     <string name="menu_report">报告问题</string>
     <string name="menu_export">导出</string>
     <string name="menu_import">导入</string>
-    <string name="menu_submit">提交权限限制规则</string>
-    <string name="menu_fetch">下载权限限制规则</string>
+    <string name="menu_submit">提交限制规则</string>
+    <string name="menu_fetch">下载限制规则</string>
     <string name="menu_theme">切换主题</string>
     <string name="menu_pro">专业版</string>
     <string name="menu_about">关于</string>
@@ -29,8 +29,8 @@
     <string name="menu_clear_all">清除所有</string>
     <string name="menu_clear_usage">清除权限使用记录</string>
     <string name="menu_clear_db">清除所有 XPrivacy 数据</string>
-    <string name="menu_usage_all">开关过滤</string>
-    <string name="menu_apply">应用权限模板</string>
+    <string name="menu_usage_all">过滤器开关</string>
+    <string name="menu_apply">应用模板</string>
     <string name="menu_clear">清除</string>
     <string name="menu_app_launch">启动</string>
     <string name="menu_app_settings">设置</string>
@@ -44,7 +44,7 @@
     <string name="menu_changelog">更新日志</string>
     <string name="menu_flush">清除缓存</string>
     <string name="menu_update">检查更新</string>
-    <string name="menu_batch">操作&#8230;</string>
+    <string name="menu_batch">操作 &#8230;</string>
     <string name="menu_legend">图例</string>
     <string name="msg_abort">正在中止</string>
     <string name="msg_aborted">已中止</string>
@@ -60,13 +60,13 @@
     <string name="msg_limit">请选择少于 %d 个应用</string>
     <string name="msg_done">完成</string>
     <string name="msg_reboot">XPrivacy 需要在重启后才能生效</string>
-    <string name="msg_random_now">生成随机数值</string>
+    <string name="msg_random_now">立即生成随机数值</string>
     <string name="msg_random_access">访问时生成随机数值</string>
     <string name="msg_random_boot">设备启动时生成随机数值</string>
     <string name="msg_restart">需要重启应用</string>
     <string name="msg_register">请注册您的设备</string>
     <string name="msg_email">请输入您的电子邮件地址:</string>
-    <string name="msg_registered">查看邮件来激活你的设备</string>
+    <string name="msg_registered">查看邮件来激活您的设备</string>
     <string name="msg_service">更新服务正在运行</string>
     <string name="msg_migrating">正在迁移 %1$s</string>
     <string name="msg_randomizing">正在生成随机数值 %1$s</string>
@@ -81,7 +81,7 @@
     <string name="msg_longpress_whitelist">长按函数名以将其加入黑/白名单</string>
     <string name="msg_settings_specific">勾选后应用特定模拟信息将覆盖全局设置。未勾选的项目将使用全局设置。</string>
     <string name="msg_corrupt">隐私数据库已被重置，因为它已损坏</string>
-    <string name="msg_first"><b>尽管 XPrivacy 的开发和测试工作已经非常全面和细致,
+    <string name="msg_first"><b>尽管 XPrivacy 的开发和测试工作已经非常全面和细致，
 但仍然不可能保证它能完美兼容所有设备及应用。
 \n\n使用者需自行承担风险。</b>\n\n另请参阅使用许可:</string>
     <string name="title_restrict">勾选以限制:</string>
@@ -113,11 +113,11 @@
     <string name="title_dontknow">不确定</string>
     <string name="title_pleasesubmit">请发送你的应用限制信息来帮助其他人</string>
     <string name="title_permissions">权限</string>
-    <string name="title_set_restrict">限制(分类)</string>
-    <string name="title_template_category">应用模板(类别)</string>
-    <string name="title_template_full">应用模板(类别和函数)</string>
-    <string name="title_template_merge">应用模板(合并原有)</string>
-    <string name="title_template_merge_reset">应用模板(清除原有)</string>
+    <string name="title_set_restrict">限制 (分类)</string>
+    <string name="title_template_category">应用模板 (类别)</string>
+    <string name="title_template_full">应用模板 (类别和函数)</string>
+    <string name="title_template_merge">应用模板 (合并原有)</string>
+    <string name="title_template_merge_reset">应用模板 (清除原有)</string>
     <string name="title_enable_ondemand">开启按需限制</string>
     <string name="title_disable_ondemand">关闭按需限制</string>
     <string name="title_ondemand_default">超时将：</string>
@@ -157,7 +157,7 @@
     <string name="settings_fake_data">模拟信息</string>
     <string name="settings_notify">更新通知</string>
     <string name="settings_ondemand">按需限制</string>
-    <string name="settings_blacklist">黑名单设定（帐户，应用和联系人）</string>
+    <string name="settings_blacklist">黑名单设定 (帐户，应用和联系人)</string>
     <string name="settings_log">调试日志（需要重启）</string>
     <string name="settings_expert">高级模式</string>
     <string name="settings_confidence">最大采样置信区间</string>
@@ -180,7 +180,7 @@
     <string name="help_internet">应用含有网络权限</string>
     <string name="help_granted">应用含有 Android 权限</string>
     <string name="help_used">应用曾经用过这种数据</string>
-    <string name="help_used_grayed">应用没有用过这种权限</string>
+    <string name="help_used_grayed">应用没有权限使用记录</string>
     <string name="help_frozen">已被禁用</string>
     <string name="help_dangerous">是危险的，限制可能导致应用异常</string>
     <string name="help_half">已限制部分权限</string>
@@ -190,7 +190,7 @@
     <string name="help_settings">具有应用特定的模拟信息</string>
     <string name="tutorial_mainheader">选择权限类别进行限制</string>
     <string name="tutorial_mainlist">勾选应用后的复选框以限制所选类别的权限\n
-\n被限制的应用请求该权限时会接收到空或伪造的数据\n
+\n被限制的应用请求该权限时会接收到空或模拟数据\n
 \n点击应用图标以查看详细权限限制规则和设置</string>
     <string name="tutorial_detailsheader">点击应用图标以查看更多操作</string>
     <string name="tutorial_detailslist">点击左侧向下的箭头以查看该类别的子权限</string>
