@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <string name="app_notenabled">XPrivacy 没有在 Xposed Installer 中启用</string>
+    <string name="app_notenabled">XPrivacy 没有在 Xposed 框架中启用</string>
     <string name="app_wrongandroid">仅支持 Android 4.0.3 以上版本</string>
     <string name="app_incompatible">XPrivacy 与 %1$s 不兼容</string>
     <string name="app_version">XPrivacy 版本: %1$s (%2$d)</string>
@@ -13,11 +13,11 @@
     <string name="menu_settings">设置</string>
     <string name="menu_template">权限模板</string>
     <string name="menu_report">报告问题</string>
-    <string name="menu_export">导出</string>
-    <string name="menu_import">导入</string>
-    <string name="menu_submit">提交限制规则</string>
-    <string name="menu_fetch">下载限制规则</string>
-    <string name="menu_theme">切换主题</string>
+    <string name="menu_export">导出全局配置</string>
+    <string name="menu_import">导入全局配置</string>
+    <string name="menu_submit">提交权限限制规则</string>
+    <string name="menu_fetch">下载权限限制规则</string>
+    <string name="menu_theme">切换明/暗主题</string>
     <string name="menu_pro">专业版</string>
     <string name="menu_about">关于</string>
     <string name="menu_help">帮助</string>
@@ -117,7 +117,7 @@
     <string name="title_template_category">应用模板 (类别)</string>
     <string name="title_template_full">应用模板 (类别和函数)</string>
     <string name="title_template_merge">应用模板 (合并原有)</string>
-    <string name="title_template_merge_reset">应用模板 (清除原有)</string>
+    <string name="title_template_merge_reset">应用模板 (清除模板已设置的项)</string>
     <string name="title_enable_ondemand">开启按需限制</string>
     <string name="title_disable_ondemand">关闭按需限制</string>
     <string name="title_ondemand_default">超时将：</string>
